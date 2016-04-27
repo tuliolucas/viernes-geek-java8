@@ -1,2 +1,2 @@
 # viernes-alegres-java8
-Some relevant topics about Java 8
+Em meados de março de 2015, a Oracle lançou o Java 8, que chegou com  muitas novidades e muito barulho que eu não via desde o lançamento do Java 5.
