@@ -3,7 +3,7 @@ Em meados de 2015, a Oracle lançou o Java 8, que chegou com  muitas novidades e
 
 Esta release contém inúmeras features, improvements, bugs fixes e tunnings para melhorar a eficiência e execução JAVA.
 
-A lista de novidades é imensa, [lista de novidades](http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html),  e a nossa idéia inicial é abordar inicialmente as novidadesda linguagem que acreditamos ser as mais relevantes e vai mudar a forma pelo qual escrevemos nossos códigos.
+**Disclaimer:** A lista de novidades é imensa, [lista de novidades](http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html),  e a nossa idéia inicial é abordar inicialmente as novidadesda linguagem que acreditamos ser as mais relevantes e vai mudar a forma pelo qual escrevemos nossos códigos.
 
 ### Default Method
 
@@ -130,11 +130,13 @@ System.out.printf("%s anos, %s mês e %s dias",
 
 ````
 
-### Ver depois
+### E tem muito mais novidades
 
-Java 8 is introducing a completely new JVM JavaScript engine – Nashorn.
+Somente reforçando meu disclaimer iniciaal, existem muitas outras novidades bem legais como "Accumulators and Adders" e "Nashorn" e recomendo a continuação dos estudos.
 
-Java 8 Accumulators and Adders
+Espero que tenham gostado das pinceladas de Java 8.
+
+Valeu!!!
 
 
 ## Referências
@@ -145,16 +147,18 @@ Java 8 Accumulators and Adders
 
 [http://pt.stackoverflow.com/questions/11162/o-que-s%C3%A3o-interfaces-funcionais](http://pt.stackoverflow.com/questions/11162/o-que-s%C3%A3o-interfaces-funcionais)
 
-http://pt.stackoverflow.com/questions/269/quais-as-vantagens-das-express%C3%B5es-lambda-presentes-no-java-8
+[http://pt.stackoverflow.com/questions/269/quais-as-vantagens-das-express%C3%B5es-lambda-presentes-no-java-8](http://pt.stackoverflow.com/questions/269/quais-as-vantagens-das-express%C3%B5es-lambda-presentes-no-java-8)
 
-http://www.infoq.com/br/articles/java8-desmistificando-lambdas
+[http://www.infoq.com/br/articles/java8-desmistificando-lambdas](http://www.infoq.com/br/articles/java8-desmistificando-lambdas)
 
-http://www.drdobbs.com/jvm/lambda-expressions-in-java-8/240166764
+[http://www.drdobbs.com/jvm/lambda-expressions-in-java-8/240166764](http://www.drdobbs.com/jvm/lambda-expressions-in-java-8/240166764)
 
-http://effectivecraft.blogspot.com.br/2014/05/entendendo-classe-optional-no-java-8.html
+[http://effectivecraft.blogspot.com.br/2014/05/entendendo-classe-optional-no-java-8.html](http://effectivecraft.blogspot.com.br/2014/05/entendendo-classe-optional-no-java-8.html)
 
-http://pt.stackoverflow.com/tags/java-8/hot
+[http://pt.stackoverflow.com/tags/java-8/hot](http://pt.stackoverflow.com/tags/java-8/hot)
 
-http://effectivecraft.blogspot.com.br/2014/05/entendendo-classe-optional-no-java-8.html
+[http://effectivecraft.blogspot.com.br/2014/05/entendendo-classe-optional-no-java-8.html](http://effectivecraft.blogspot.com.br/2014/05/entendendo-classe-optional-no-java-8.html)
+
+[http://blog.caelum.com.br/o-eterno-problema-de-calcular-a-diferenca-de-dias-entre-duas-datas-em-java](http://blog.caelum.com.br/o-eterno-problema-de-calcular-a-diferenca-de-dias-entre-duas-datas-em-java/)
 
 
