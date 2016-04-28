@@ -31,20 +31,33 @@ Esta funcionalidade foi criada para suportar a utilização de Lambdas (que vere
 ### Lambda Expression
 
 
-Lambda Expressions foi a maneira escolhida para que a linguagem Java finalmente possua “nuances” deprogramação funcional.
-A definição de “programação funcional” é um pouco controversa. Não há muito consenso. O wikipedia nos diz o seguinte:
+Lambda Expressions foi a maneira escolhida para que a linguagem Java finalmente possua “nuances” bem leves de programação funcional.
+Sobre a definição de “programação funcional”, sempre existem controvérvisas, mas o meu brother Wikipedia afirma o seguinte:
 
-“Em ciência da computação, programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis. Ela enfatiza a aplicação de funções, em contraste da programação imperativa, que enfatiza mudanças no estado do programa.”
+“...Em ciência da computação, programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis. Ela enfatiza a aplicação de funções, em contraste da programação imperativa, que enfatiza mudanças no estado do programa...”
 
 Em resumo, utilizar lambda expressions vai permitir passar comportamentos, funções, como argumentos em uma chamada de método. É um paradigma realmente um pouco diferente do que programadores java estão acostumados, que desde então só escrevem métodos que aceitam objetos como parâmetro, e não outros métodos!
 
-A plataforma Java na verdade chegou um pouco atrasada nessa festa. Outras linguagens como Scala, C#, Python e até Javascript já fazem isso há tempos. Há quem diga que apesar de ser possível “fazer mais com menos”, o uso de lambdas compromete a legibilidade do código. Esse é inclusive uma das alegações mais utilizadas por quem não concordava com a adição de lambdas na linguagem Java. Seguindo esse raciocínio, o próprio Martin Fowler disse certa vez:
+A plataforma Java na verdade chegou um pouco atrasada nessa festa. Outras linguagens como Scala, C#, Python e até Javascript já fazem isso há tempos. 
 
-Controvérsias à parte, existe pelo menos um ótimo argumento a favor das expressões lambda: Paralelismo. Com a proliferação de CPUs multicore, escrever código que possa facilmente se beneficiar de processamento concorrente é uma obrigação. Em Java por exemplo, não havia uma maneira simples de escrever código para percorrer grandes coleções de objetos em paralelo.
+Há quem diga que o uso de lambdas compromete a legibilidade do código. 
 
-Códigos menos verbosos
+Em minha opinião existem pelo menos dois bons argumentos a favor das expressões lambda: O primeiro é o Paralelismo. Até então em Java, não havia uma maneira simples de escrever código para percorrer grandes coleções de objetos em paralelo. O segundo argumento é a possibilidade de deixar a linguagem menos verbosa.
 
-**Markdown**
+**Method Reference**
+
+É comum um lambda simplesmente invocar um único método. 
+Para deixar a coisa mais exuta, um lambda também pode ser escrito como forma de method reference.
+
+Em vez de s -> s.length() fazemos simplesmente String::length, ficando implícito que queremos, para a String passada como argumento, que o length seja invocado.
+
+### Stream
+
+### Optional
+
+### Date
+
+
 
 ## Referências
 
