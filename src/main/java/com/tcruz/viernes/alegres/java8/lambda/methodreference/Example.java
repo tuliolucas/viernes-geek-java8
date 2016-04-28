@@ -17,7 +17,7 @@ public class Example {
 
         //Sem utilizar o methodreference
         palavras.forEach((palavra) -> System.out.println(palavra));
-        
+
         //Super cool loop
         palavras.forEach(System.out::println);;
 
