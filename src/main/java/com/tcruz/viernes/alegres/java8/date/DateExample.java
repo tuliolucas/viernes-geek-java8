@@ -11,18 +11,18 @@ public class DateExample {
         ZoneId fusoHorarioDeSaoPaulo = ZoneId.of("America/Sao_Paulo");
 
         ZonedDateTime agoraEmSaoPaulo = ZonedDateTime.now(fusoHorarioDeSaoPaulo);
-        System.out.println(agoraEmSaoPaulo); //2014-04-08T10:02:57.838-03:00[America/Sao_Paulo]
+        System.out.println(agoraEmSaoPaulo);
 
         ZoneId fusoHorarioDeNovaYork = ZoneId.of("America/New_York");
         LocalDateTime saidaDeSaoPauloSemFusoHorario = LocalDateTime.of(2014, Month.APRIL.APRIL, 4, 22, 30);
         LocalDateTime chegadaEmNovaYorkSemFusoHorario = LocalDateTime.of(2014, Month.APRIL, 5, 7, 10);
 
         ZonedDateTime saidaDeSaoPauloComFusoHorario = ZonedDateTime.of(saidaDeSaoPauloSemFusoHorario, fusoHorarioDeSaoPaulo);
-        System.out.println(saidaDeSaoPauloComFusoHorario); //2014-04-04T22:30-03:00[America/Sao_Paulo]
+        System.out.println(saidaDeSaoPauloComFusoHorario);
 
         ZonedDateTime chegadaEmNovaYorkComFusoHorario =
                 ZonedDateTime.of(chegadaEmNovaYorkSemFusoHorario, fusoHorarioDeNovaYork);
-        System.out.println(chegadaEmNovaYorkComFusoHorario); //2014-04-05T07:10-04:00[America/New_York]
+        System.out.println(chegadaEmNovaYorkComFusoHorario);
 
         /**
          * Se calcularmos de maneira ingênua a duração do voo, teríamos 8:40. Porém, como há uma diferença entre os fusos

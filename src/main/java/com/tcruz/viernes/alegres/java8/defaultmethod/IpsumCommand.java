@@ -1,9 +1,8 @@
 package com.tcruz.viernes.alegres.java8.defaultmethod;
 
-import lombok.AllArgsConstructor;
-
 public class IpsumCommand implements GDSCommand{
 
+    public static final String IPSUM_PREFIX = "Ipsum ";
     private String externalParam;
 
     public IpsumCommand(String externalParam){
@@ -12,10 +11,7 @@ public class IpsumCommand implements GDSCommand{
 
     @Override
     public String generateCommand() {
-        return externalParam;
+        return IPSUM_PREFIX.concat(externalParam);
     }
 
-    /*public String getPattern(){
-        return "Ipsum\\s(.*)";
-    };*/
 }

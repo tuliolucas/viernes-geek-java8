@@ -4,14 +4,15 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class Example {
+public class LambdaExample {
 
     public static void main(String[] args) {
+
+        ClassConsumer classConsumer = new ClassConsumer();
 
         /**
          * Exemplo 1
         **/
-        ClassConsumer classConsumer = new ClassConsumer();
         System.out.println(classConsumer.consume(() -> "Bleh bleh"));
 
         /**
@@ -30,7 +31,7 @@ public class Example {
         };
         palavras.sort(comparator);
 
-        //Modo Java8 de ser
+        //Já no modo Java 8 de ser
         palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
 
         /**
@@ -45,6 +46,7 @@ public class Example {
 
         }).start();
 
+        //Já no modo Java 8 de ser
         new Thread(() -> System.out.println("Thread rodando...")).start();
 
 

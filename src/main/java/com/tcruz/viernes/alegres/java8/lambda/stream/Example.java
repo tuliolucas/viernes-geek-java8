@@ -2,10 +2,7 @@ package com.tcruz.viernes.alegres.java8.lambda.stream;
 
 import com.tcruz.viernes.alegres.java8.lambda.ClassConsumer;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.OptionalDouble;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class Example {
@@ -29,5 +26,8 @@ public class Example {
                 .average();
 
         System.out.println(media.orElse(0));
+
+
+        String s = Optional.ofNullable("").orElse("String nula");
     }
 }

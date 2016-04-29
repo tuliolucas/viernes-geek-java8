@@ -2,6 +2,8 @@ package com.tcruz.viernes.alegres.java8.defaultmethod;
 
 public class LoremCommand implements GDSCommand{
 
+    public static final String LOREM_PREFIX = "Lorem ";
+
     private String externalParam;
 
     public LoremCommand(String externalParam){
@@ -10,11 +12,9 @@ public class LoremCommand implements GDSCommand{
 
     @Override
     public String generateCommand() {
-        return externalParam;
-    }
 
-    /*public String getPattern(){
-        return "Lorem\\s(.*)";
-    };*/
+        //Doing something
+        return LOREM_PREFIX.concat(externalParam);
+    }
 
 }
